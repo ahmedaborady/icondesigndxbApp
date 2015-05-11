@@ -239,5 +239,5 @@ angular.module('icondesign', ['ionic'])
         $scope.mail = $state.params.mail;
         setTimeout(function(){
             $state.go('home');
-        },5000);
+        },10000);
     });
