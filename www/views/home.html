@@ -1,0 +1,166 @@
+
+<ion-header-bar class="bar-stable myheader">
+    <img src="css/images/header-logo.png" width="204" height="80" alt=""/>
+</ion-header-bar>
+<ion-content class="mainWrapper" ng-controller="regCtrl">
+
+
+    <div class="maincontent">
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/person.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col col-50">
+                <label class="item item-input">
+                    <input type="text" placeholder="First Name" ng-model="fname" id="firstname">
+                </label>
+            </div>
+            <div class="col col-50">
+                <label class="item item-input">
+                    <input type="text" placeholder="Last Name" ng-model="lname" id="lastname">
+                </label>
+            </div>
+        </div>
+    </div>
+</div><!--End first and last name row-->
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/email.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col"><label class="item item-input">
+                <input type="email" placeholder="Email" ng-model="email" id="email">
+            </label></div>
+        </div>
+    </div>
+</div><!--End Email-->
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/pass.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col"><label class="item item-input">
+                <input type="password" placeholder="Password" ng-model="pwd" id="pwd">
+            </label></div>
+        </div>
+    </div>
+</div><!--Password-->
+
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/passc.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col"><label class="item item-input">
+                <input type="password" placeholder="Confirm Password" ng-model="pwdconfirm" id="pwdc">
+            </label></div>
+        </div>
+    </div>
+</div><!--Password confirm-->
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/phone.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col col-25">
+                <label class="item item-input item-select ccodelabel">
+
+                    <select class="sccode" ng-model="ccode" id="ccode">
+                        <option selected>050</option>
+                        <option>052</option>
+                        <option>055</option>
+                        <option>056</option>
+                    </select>
+                </label>
+            </div>
+            <div class="col col-75">
+                <label class="item item-input">
+                    <input type="tel" placeholder="Mobile Phone" ng-model="phonebody" id="phone">
+                </label>
+            </div>
+        </div>
+    </div>
+</div><!--End phone-->
+
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/address.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col"><label class="item item-input">
+                <textarea placeholder="Address" ng-model="address" id="address"></textarea>
+            </label>
+            </div>
+        </div>
+    </div>
+</div><!--Adress-->
+
+
+<div class="row">
+    <div class="col col-10 imgcont">
+        <img src="img/emi.png" alt=""/>
+    </div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col">
+
+
+                <label class="item item-input item-select ccodelabel">
+                    <div class="input-label" style="color:white;">
+                        Emirate
+                    </div>
+                    <select ng-model="emirate" class="sccode" id="emi">
+                        <option data-id="489" selected>Dubai</option>
+                        <option data-id="490">Sharjah</option>
+                        <option data-id="491">Ajman</option>
+                        <option data-id="492">Um AlQuin</option>
+                        <option data-id="493">Ras Al Khaimah</option>
+                        <option data-id="494">Al Ain</option>
+                        <option data-id="495">Fujairah</option>
+                        <option data-id="496">Abu Dhabi</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+</div><!--Emirate end-->
+
+
+
+<div class="row">
+    <div class="col col-10"></div>
+    <div class="col col-90">
+        <div class="row">
+            <div class="col">
+               <!--but-->
+                <h4 class="response">{{rsponseText}}</h4>
+
+            </div>
+        </div>
+    </div>
+</div>
+        <button class="button button-block  regbtn" ng-click="registerUser();">
+            Submit
+        </button>
+<!--Emirate end-->
+
+    </div>
+
+
+
+</ion-content>
+
+

@@ -1,0 +1,193 @@
+/* Empty. Add your own CSS if you like */
+
+.maincontent{
+    background-color: #2E1829;
+    width: 85%;
+    margin: auto;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: 350px;
+
+    -moz-box-shadow: 9px 9px 58px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 9px 9px 58px rgba(0,0,0,0.8);
+    -o-box-shadow: 9px 9px 58px rgba(0,0,0,0.8);
+    box-shadow: 9px 9px 58px rgba(0,0,0,0.8);
+}
+
+.maincontent input,.maincontent textarea, .maincontent label{
+    background-color: #2E1829;
+    color:white;
+
+}
+.maincontent label{
+    border: 3px solid white;
+}
+
+
+.sccode{
+    background: none !important;
+    color: white !important;
+    text-align: center !important;
+    width: 100% !important;
+    position: relative !important;
+    padding: 0 !important;
+    text-align: left !important;
+    display: inline-block !important;
+}
+
+.ccodelabel{
+    min-height: 50px;
+}
+
+
+.button.regbtn{
+    background-color: #E16455;
+    border: none;
+    color:white
+
+}
+
+.button.regbtn:active{
+    background-color: #a35243;
+    border: none;
+
+}
+
+.button.regbtn:focus{
+    background-color: #a35243;
+    border: none;
+
+}
+
+.myheader{
+    background-color: #2E1829 !important;
+    color: white !important;
+    border: none !important;
+    background-image: none !important;
+    min-height: 150px;
+}
+
+
+.myheader img{
+    display: block;
+    width: 204px;
+    margin: auto;
+}
+
+.mainWrapper{
+    background-color: #3B2639;
+    background-image: url('../img/bg-pattern.png');
+}
+
+.footer-top{
+    width: 100%;
+}
+
+.myfooter{
+    height: auto;
+    padding: 0;
+
+    bottom:130px;
+}
+
+.myfooter h4{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    background-color: #2E1829;
+    color:white;
+    text-align: center;
+}
+
+.bottom-footer{
+    height: 130px;
+    padding-top: 0;
+}
+
+.social{
+    line-height: 50px;
+    padding-left: 50px;
+    text-indent: 10px;
+    margin: 8px;
+}
+
+
+.social.facebook{
+    background-image: url('../img/facebook.png');
+    background-repeat: no-repeat;
+}
+
+.social.twitter{
+    background-image: url('../img/twitter.png');
+    background-repeat: no-repeat;
+}
+
+.social.insta{
+    background-image: url('../img/insta.png');
+    background-repeat: no-repeat;
+}
+.social.website{
+    background-image: url('../img/website.png');
+    background-repeat: no-repeat;
+}
+
+.imgcont{
+text-align: center;
+
+}
+
+.imgcont img{
+    max-width: 40px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.thanks{
+    padding:30px;
+    color:white;
+}
+
+.thanks h1{
+
+    color:white;
+    text-align: center;
+}
+
+.thanks .confirmation span.mail{
+    color:#E16455;
+}
+
+.thanks .visit span.link{
+    color:#E16455;
+}
+
+.thanks p{
+    text-align: center;
+}
+
+.thanks h3{
+    text-align: center;
+}
+
+.socialf{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.socialf img{margin-right: 10px;margin-left: 10px;float: left;}
+
+.socialf span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.response{
+    color:#F9D338;
+}
